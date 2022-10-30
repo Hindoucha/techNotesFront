@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eaeff2;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+    font-family: 'Quicksand', sans-serif;
+    color: #0f0f0f;
+    overflow-x: hidden;
+}
+
+.navbar {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.public .navbar {
+    background-color: #fafafa;
+}
+
+.public {
+    overflow: hidden;
+}
+
+.hero {
+    background-color: #fafafa;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+.n-title {
+    font-size: 1.5em;
+    font-weight: 900;
+    text-shadow: 1px 5px 3px rgba(0,0,0,0.1);
+}
+
+.hero, .h-container{
+    height: 85vh;
+}
+
+.h-container {
+    display: flex;
+    width: 90%;
+}
+
+.h-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.h-right {
+    flex: 1;
+    position: relative;
+}
+
+#robot{
+    height: 85vh;
+    width: 100%;
+    z-index: 2;
+    position: relative;
+}
+
+#blob{
+    position: absolute;
+    width: 70vw;
+    top: -13vh;
+    right: -5vw;
+}
+
+#link {
+    text-decoration: none;
+}
+#link:visited {
+    color: #0f0f0f
+}
+.btn {
+    background-color: rgb(250, 35, 86);
+    width: 10vw;
+    min-width: fit-content;
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: wheat;
+}
+
+.btn:hover {
+    background-color: rgb(236, 35, 82);;
+}
+
+.h-content {
+    height: 60vh;
+}
+
+.h-content h2,.h-content p,.h-content div, .h-content address {
+    margin-bottom: 2%;
+}
+
+.h-content .btn {
+    margin-top: 4%;
+}
+
+.copyright {
+    height: 5vh;
+    background-color: #fafafa;
+    color: #aaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+}
+
+.login {
+    height: 100vh;
+}
+
+.l-content {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: #fafafa;
+    width: 25vw;
+    height: 43vh;
+    position: relative;
+    top: 12vh;
+    border-radius: 1%;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+}
+
+.card-title {
+    font-weight: 900;
+    font-size: 1.5em;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs {
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.inputs input {
+    height: 5vh;
+    width: 97%;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    margin-bottom: 4%;
+    margin-top: 1%;
+    font-size: 1em;
+    padding-left: 2%;
+}
+
+.inputs .btn {
+    margin-top: 6%;
+    text-transform: uppercase;
+}
+
+label {
+    color: #aaa;
+}
+
