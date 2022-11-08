@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #eaeff2;
+    background-color: #f5f7f9;
     letter-spacing: 2px;
     font-size: 1.2em;
     font-family: 'Quicksand', sans-serif;
@@ -21,7 +21,7 @@ body {
 }
 
 .public .navbar {
-    background-color: #fafafa;
+    background-color: white;
 }
 
 .public {
@@ -29,7 +29,7 @@ body {
 }
 
 .hero {
-    background-color: #fafafa;
+    background-color: white;
 }
 
 .container {
@@ -114,7 +114,7 @@ body {
 
 .copyright {
     height: 5vh;
-    background-color: #fafafa;
+    background-color: white;
     color: #aaa;
     display: flex;
     justify-content: center;
@@ -133,7 +133,7 @@ body {
 }
 
 .card {
-    background-color: #fafafa;
+    background-color: white;
     width: 25vw;
     height: 43vh;
     position: relative;
@@ -175,5 +175,67 @@ body {
 
 label {
     color: #aaa;
+
 }
 
+.dash-header {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    background-color: #fafafa;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+}
+
+.dash-footer {
+    position: fixed;
+    bottom: 0;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    background-color: #fafafa;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.welcome {
+    background-color: aquamarine;
+    position: fixed;
+    top: 10vh;
+    right: 0;
+    width: 88vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.welcome-content-container {
+    background-color: blueviolet;
+    height: 95%;
+    width: 95%;
+}
+
+.welcome-content {
+    background-color: darkgray;
+}
+
+.welcome-sidebar {
+    background-color: pink;
+    position: fixed;
+    top: 10vh;
+    min-width: 12vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar-container {
+    background-color: rgb(160, 160, 215);
+    width: 90%;
+    height: 90%;
+}

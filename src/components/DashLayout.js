@@ -7,7 +7,7 @@ const DashLayout = () => {
   return (
     <>
         <DashHeader />
-        <Outlet />
+        <Outlet/>
         <DashFooter />
     </>
   )

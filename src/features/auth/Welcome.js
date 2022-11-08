@@ -1,13 +1,60 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import DashSideBar from '../../components/DashSidebar'
 
 const Welcome = () => {
   return (
-    <div>
-      <h1>Welcome</h1>
-      <Link to='/dash/notes'>Notes list</Link>
-      <Link to='/dash/users'>Users settings</Link>
+      <>
+      <DashSideBar />
+      <div className='welcome'>
+        <div className="welcome-content-container">
+          <div className="welcome-content">
+            <b>#karamamba</b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam beatae, cum illo tenetur distinctio? Quis dignissimos dolor mollitia. Expedita, dolores eum? Cum neque minus reprehenderit sapiente porro voluptas laudantium!
+            <b>#sadgul</b>
+          </div>
+          </div>
     </div>
+    </>
   )
 }
 
