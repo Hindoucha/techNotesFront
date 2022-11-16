@@ -2,7 +2,11 @@ import React from 'react'
 
 const DashFooter = () => {
   return (
-    <div className='dash-footer'>DashFooter</div>
+    <div className='dash-footer'>
+      <div className="container">
+        <div>DashFooter</div>
+      </div>
+    </div>
   )
 }
 

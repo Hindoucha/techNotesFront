@@ -79,9 +79,10 @@ body {
 
 #link {
     text-decoration: none;
+    color: #fafafa
 }
 #link:visited {
-    color: #0f0f0f
+    color: #fafafa
 }
 .btn {
     background-color: rgb(250, 35, 86);
@@ -180,28 +181,32 @@ label {
 
 .dash-header {
     height: 10vh;
-    width: 100vw;
+    width: 88vw;
     display: flex;
     align-items: center;
     background-color: #fafafa;
     border-bottom: 1px solid rgba(0,0,0,0.1);
     position: sticky;
     top: 0;
+    left: 12vw;
+    z-index: 4;
 }
 
 .dash-footer {
     position: fixed;
     bottom: 0;
+    left: 12vw;
     height: 10vh;
     width: 100vw;
     display: flex;
     align-items: center;
     background-color: #fafafa;
     border-top: 1px solid rgba(0,0,0,0.1);
+    z-index: 4;
 }
 
-.welcome {
-    background-color: aquamarine;
+.dash {
+    background-color: #efefef;
     position: fixed;
     top: 10vh;
     right: 0;
@@ -214,28 +219,30 @@ label {
     overflow-x: hidden;
 }
 
-.welcome-content-container {
-    background-color: blueviolet;
-    height: 95%;
+.dash-content-container {
+    height: 90%;
     width: 95%;
 }
 
-.welcome-content {
-    background-color: darkgray;
+.dash-content {
+    
 }
 
-.welcome-sidebar {
-    background-color: pink;
+.sidebar {
+    background-color: #343a40;
     position: fixed;
-    top: 10vh;
+    top: 0;
     min-width: 12vw;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-right: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 7px -1px 10px -3px rgba(0,0,0,0.39);
+    z-index: 5;
+
 }
 .sidebar-container {
-    background-color: rgb(160, 160, 215);
     width: 90%;
-    height: 90%;
+    height: 92%;
 }
